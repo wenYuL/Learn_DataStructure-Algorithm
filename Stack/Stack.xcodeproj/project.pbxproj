@@ -13,6 +13,8 @@
 		F9E11DDA2261E10200A055B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E11DD92261E10200A055B2 /* Assets.xcassets */; };
 		F9E11DDD2261E10200A055B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E11DDB2261E10200A055B2 /* LaunchScreen.storyboard */; };
 		F9E11DE02261E10200A055B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DDF2261E10200A055B2 /* main.m */; };
+		F9E11DE72261E20800A055B2 /* README in Resources */ = {isa = PBXBuildFile; fileRef = F9E11DE62261E20800A055B2 /* README */; };
+		F9E11DEA22622A6100A055B2 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DE922622A6100A055B2 /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		F9E11DDC2261E10200A055B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9E11DDE2261E10200A055B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9E11DDF2261E10200A055B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9E11DE62261E20800A055B2 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F9E11DE822622A6100A055B2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		F9E11DE922622A6100A055B2 /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +67,14 @@
 				F9E11DD12261E10000A055B2 /* AppDelegate.m */,
 				F9E11DD32261E10000A055B2 /* ViewController.h */,
 				F9E11DD42261E10000A055B2 /* ViewController.m */,
+				F9E11DE822622A6100A055B2 /* Stack.h */,
+				F9E11DE922622A6100A055B2 /* Stack.m */,
 				F9E11DD62261E10000A055B2 /* Main.storyboard */,
 				F9E11DD92261E10200A055B2 /* Assets.xcassets */,
 				F9E11DDB2261E10200A055B2 /* LaunchScreen.storyboard */,
 				F9E11DDE2261E10200A055B2 /* Info.plist */,
 				F9E11DDF2261E10200A055B2 /* main.m */,
+				F9E11DE62261E20800A055B2 /* README */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E11DE72261E20800A055B2 /* README in Resources */,
 				F9E11DDD2261E10200A055B2 /* LaunchScreen.storyboard in Resources */,
 				F9E11DDA2261E10200A055B2 /* Assets.xcassets in Resources */,
 				F9E11DD82261E10000A055B2 /* Main.storyboard in Resources */,
@@ -141,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E11DEA22622A6100A055B2 /* Stack.m in Sources */,
 				F9E11DD52261E10000A055B2 /* ViewController.m in Sources */,
 				F9E11DE02261E10200A055B2 /* main.m in Sources */,
 				F9E11DD22261E10000A055B2 /* AppDelegate.m in Sources */,
