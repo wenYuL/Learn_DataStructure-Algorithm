@@ -82,12 +82,18 @@ static const int kDefaultStackCounts = 4;
 
 
 - (void)enumerateStackObjectsFromBottom:(stackEnum)block {
-    [self.stackArray enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    //NSEnumerationConcurrent 为大概按照顺序遍历，遍历时为CPU多核快速遍历，不能保证顺序
+    /*
+    [self.stackArray enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        block?block(obj):nil;
+    }];
+    */
+    [self.stackArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         block?block(obj):nil;
     }];
 }
 - (void)enumerateStackObjectsFromTop:(stackEnum)block {
-    [self.stackArray enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [self.stackArray enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         block?block(obj):nil;
     }];
 }

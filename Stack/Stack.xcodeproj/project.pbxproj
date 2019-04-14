@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9CE3F542263217E00F546C5 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CE3F532263217E00F546C5 /* Queue.m */; };
 		F9E11DD22261E10000A055B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DD12261E10000A055B2 /* AppDelegate.m */; };
 		F9E11DD52261E10000A055B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DD42261E10000A055B2 /* ViewController.m */; };
 		F9E11DD82261E10000A055B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E11DD62261E10000A055B2 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9CE3F522263217E00F546C5 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		F9CE3F532263217E00F546C5 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		F9E11DCD2261E10000A055B2 /* Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E11DD02261E10000A055B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9E11DD12261E10000A055B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				F9E11DD42261E10000A055B2 /* ViewController.m */,
 				F9E11DE822622A6100A055B2 /* Stack.h */,
 				F9E11DE922622A6100A055B2 /* Stack.m */,
+				F9CE3F522263217E00F546C5 /* Queue.h */,
+				F9CE3F532263217E00F546C5 /* Queue.m */,
 				F9E11DD62261E10000A055B2 /* Main.storyboard */,
 				F9E11DD92261E10200A055B2 /* Assets.xcassets */,
 				F9E11DDB2261E10200A055B2 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CE3F542263217E00F546C5 /* Queue.m in Sources */,
 				F9E11DEA22622A6100A055B2 /* Stack.m in Sources */,
 				F9E11DD52261E10000A055B2 /* ViewController.m in Sources */,
 				F9E11DE02261E10200A055B2 /* main.m in Sources */,
