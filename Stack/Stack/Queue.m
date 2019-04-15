@@ -45,6 +45,7 @@ static const NSInteger kDefaultQueueCount = 4;
     [self.queueArray addObject:object];
     
 }
+
 - (void)deQueueObject {
     [self.queueArray removeObjectAtIndex:0];
 }
