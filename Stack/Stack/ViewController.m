@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "Stack.h"
+#import "Person.h"
+#import <objc/Message.h>
+#import <malloc/malloc.h>
 
 @interface ViewController ()
 
@@ -19,6 +22,7 @@
     [super viewDidLoad];
     
 }
+
 
 
 @end

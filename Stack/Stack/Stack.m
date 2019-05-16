@@ -88,6 +88,7 @@ static const int kDefaultStackCounts = 4;
         block?block(obj):nil;
     }];
     */
+
     [self.stackArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         block?block(obj):nil;
     }];

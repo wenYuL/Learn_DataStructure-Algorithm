@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "Person.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+//        Person *p = [[Person alloc]init];
+//        [p performSelector:@selector(eat)];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

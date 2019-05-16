@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9CE3F542263217E00F546C5 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CE3F532263217E00F546C5 /* Queue.m */; };
+		F96FAE60226CBD8000F13419 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F96FAE5F226CBD8000F13419 /* Person.m */; };
 		F9E11DD22261E10000A055B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DD12261E10000A055B2 /* AppDelegate.m */; };
 		F9E11DD52261E10000A055B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DD42261E10000A055B2 /* ViewController.m */; };
 		F9E11DD82261E10000A055B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E11DD62261E10000A055B2 /* Main.storyboard */; };
@@ -15,10 +15,11 @@
 		F9E11DDD2261E10200A055B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E11DDB2261E10200A055B2 /* LaunchScreen.storyboard */; };
 		F9E11DE02261E10200A055B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DDF2261E10200A055B2 /* main.m */; };
 		F9E11DE72261E20800A055B2 /* README in Resources */ = {isa = PBXBuildFile; fileRef = F9E11DE62261E20800A055B2 /* README */; };
-		F9E11DEA22622A6100A055B2 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DE922622A6100A055B2 /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F96FAE5E226CBD8000F13419 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F96FAE5F226CBD8000F13419 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F9CE3F522263217E00F546C5 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		F9CE3F532263217E00F546C5 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		F9E11DCD2261E10000A055B2 /* Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +71,8 @@
 				F9E11DD12261E10000A055B2 /* AppDelegate.m */,
 				F9E11DD32261E10000A055B2 /* ViewController.h */,
 				F9E11DD42261E10000A055B2 /* ViewController.m */,
+				F96FAE5E226CBD8000F13419 /* Person.h */,
+				F96FAE5F226CBD8000F13419 /* Person.m */,
 				F9E11DE822622A6100A055B2 /* Stack.h */,
 				F9E11DE922622A6100A055B2 /* Stack.m */,
 				F9CE3F522263217E00F546C5 /* Queue.h */,
@@ -155,8 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9CE3F542263217E00F546C5 /* Queue.m in Sources */,
-				F9E11DEA22622A6100A055B2 /* Stack.m in Sources */,
+				F96FAE60226CBD8000F13419 /* Person.m in Sources */,
 				F9E11DD52261E10000A055B2 /* ViewController.m in Sources */,
 				F9E11DE02261E10200A055B2 /* main.m in Sources */,
 				F9E11DD22261E10000A055B2 /* AppDelegate.m in Sources */,
@@ -302,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Stack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Stack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
